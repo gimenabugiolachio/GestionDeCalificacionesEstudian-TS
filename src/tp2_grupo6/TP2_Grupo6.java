@@ -168,7 +168,7 @@ public class TP2_Grupo6 {
                 sum += calificaciones[i][j];
             }
             double promedio = (double) sum / calificaciones[i].length;
-            if (promedio > 90) {
+            if (promedio > 9) {
                 System.out.println(estudiantes[i] + ": Promedio = " + promedio);
             }
         }
